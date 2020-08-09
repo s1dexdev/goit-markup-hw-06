@@ -374,9 +374,14 @@
         <!-- Subscribe -->
         <div class="subscription">
           <b class="subscription__text">Подпишитесь на рассылку</b>
-          <form action="" method="POST">
-            <input type="text" placeholder="E-mail" />
-            <button class="subscription__button">
+          <form class="footer-form" autocomplete="off">
+            <input
+              class="footer-foorm__mail"
+              type="email"
+              name="email"
+              placeholder="E-mail"
+            />
+            <button type="submit" class="subscription__button">
               Подписаться
               <svg class="subscription__icon" width="24" height="24">
                 <use href="./images/sprite.svg#icon-footer-button"></use>
